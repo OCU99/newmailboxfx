@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="com.mycompany.newmailboxfx.loginController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+      <Label layoutX="244.0" layoutY="74.0" text="Enter your credentials to login" fx:id="aLogin" />
+      <Label layoutX="257.0" layoutY="122.0" text="Username:" />
+      <Label layoutX="257.0" layoutY="166.0" text="Password:" />
+      <TextField layoutX="338.0" layoutY="118.0" text="text field" fx:id="user" />
+      <TextField layoutX="338.0" layoutY="162.0" text="text field" fx:id="password" />
+      <Button fx:id="btnHome" layoutX="297.0" layoutY="241.0" mnemonicParsing="false" onAction="#onHomeButtonClick" text="Login" />
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.mycompany.newmailboxfx.ManualController">
+      <Label layoutX="227.0" layoutY="44.0" text="Package Information" />
+      <Label layoutX="233.0" layoutY="72.0" text="First Name:" />
+      <Label layoutX="233.0" layoutY="105.0" text="Last Name:" />
+      <Label layoutX="233.0" layoutY="140.0" text="Address:" />
+      <Label layoutX="233.0" layoutY="173.0" text="Type:" />
+      <Label layoutX="233.0" layoutY="200.0" text="Tracking Number:" />
+      <Label layoutX="243.0" layoutY="239.0" text="Identification:" />
+      <TextField layoutX="302.0" layoutY="68.0" prefHeight="25.0" prefWidth="74.0" text="text field:" />
+      <TextField layoutX="308.0" layoutY="101.0" prefHeight="25.0" prefWidth="74.0" text="text field:" />
+      <TextField layoutX="314.0" layoutY="136.0" prefHeight="25.0" prefWidth="74.0" text="text field:" />
+      <TextField layoutX="310.0" layoutY="169.0" prefHeight="25.0" prefWidth="82.0" text="text field:" />
+      <TextField layoutX="335.0" layoutY="196.0" prefHeight="25.0" prefWidth="82.0" text="text field:" />
+      <TextField layoutX="341.0" layoutY="235.0" prefHeight="25.0" prefWidth="82.0" text="text field:" />
+      <Button fx:id="btnError" mnemonicParsing="false" onAction="#onErrorButtonClick" text="Error" />
+      <Button fx:id="btnMultiple" mnemonicParsing="false" onAction="#onMultipleButtonClick" text="Multiple" />
+</AnchorPane>

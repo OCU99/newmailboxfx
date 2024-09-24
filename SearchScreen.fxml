@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.mycompany.newmailboxfx.SearchScreenController">
+   <children>
+      <Label layoutX="78.0" layoutY="43.0" text="Search for package" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="111.0" prefHeight="17.0" prefWidth="119.0" text="Resident First Name" />
+      <Label layoutX="23.0" layoutY="186.0" prefHeight="17.0" prefWidth="74.0" text="Apt Number" />
+      <Label layoutX="10.0" layoutY="146.0" text="Resident Last Name" />
+      <TextField layoutX="130.0" layoutY="106.0" />
+      <TextField layoutX="130.0" layoutY="141.0" />
+      <TextField layoutX="131.0" layoutY="180.0" />
+      <ImageView fx:id="imageView" layoutX="300.0" layoutY="25.0">
+         <viewport>
+            <Rectangle2D height="380.0" width="640.0" />
+         </viewport></ImageView>
+      <TextArea fx:id="taAddress" layoutX="300.0" layoutY="400.0" prefHeight="100.0" prefWidth="640.0" />
+      <Button fx:id="btnSearch" layoutX="131.0" layoutY="215.0" mnemonicParsing="false" onAction="#onSearchButtonClick" text="Search" />
+      <Button fx:id="btnHome" layoutX="100" layoutY="0.0" mnemonicParsing="false" onAction="#onHomeButtonClick" text="Home" />
+      <Button fx:id="btnManual" layoutX="200" layoutY="0.0" mnemonicParsing="false" onAction="#onManualButtonClick" text="Manual" />
+      <Button fx:id="btnPhoto" mnemonicParsing="false" onAction="#onPhotoButtonClick" text="Photo" />
+      <TableView fx:id="tblStudent" layoutX="25.0" layoutY="550.0" prefHeight="200.0" prefWidth="950.0">
+         <columns>
+            <TableColumn fx:id="colId" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="colFirstName" prefWidth="134.0" text="First Name" />
+            <TableColumn fx:id="colLastName" minWidth="2.0" prefWidth="152.0" text="Last Name" />
+            <TableColumn fx:id="colEmail" minWidth="0.0" prefWidth="222.0" text="Email" />
+            <TableColumn fx:id="colAddress" minWidth="0.0" prefWidth="222.0" text="Address" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

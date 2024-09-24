@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.mycompany.newmailboxfx.ErrorController">
+      <Label layoutX="226.0" layoutY="45.0" text="Camera could not load" />
+      <Label layoutX="222.0" layoutY="77.0" text="information please enter" />
+      <Label layoutX="258.0" layoutY="102.0" text="information" />
+      <Button fx:id="btnManual" mnemonicParsing="false" onAction="#onManualButtonClick" text="Manual" />
+</AnchorPane>

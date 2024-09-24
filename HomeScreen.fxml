@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="com.mycompany.newmailboxfx.HomeController" maxHeight="-Infinity" maxWidth="-Infinity"
+            minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx"  xmlns:fx="http://javafx.com/fxml">
+      <Label layoutX="233.0" layoutY="29.0" text="Input information with camera" />
+      <Label layoutX="242.0" layoutY="54.0" text="or manually" />
+      <Button layoutX="230.0" layoutY="78.0" mnemonicParsing="false" text="Camera" onAction="#onTakeButtonClick" fx:id="btnTake" />
+      <Button layoutX="230.0" layoutY="122.0" mnemonicParsing="false" text="Manually" onAction="#onSearchButtonClick" fx:id="btnSearch" />
+      <Button layoutX="240.0" layoutY="150.0" mnemonicParsing="false" text="Logout Of System" onAction="#onLogoutButtonClick" fx:id="btnLogout" />
+      <Button layoutX="250.0" layoutY="200.0" mnemonicParsing="false" text="Return" onAction="#onReturnButtonClick" fx:id="btnReturn" />
+</AnchorPane>

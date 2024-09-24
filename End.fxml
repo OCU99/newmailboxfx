@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="com.mycompany.newmailboxfx.EndScreenController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+      <Label layoutX="190.0" layoutY="38.0" text="Package(s) were successfully" />
+      <Label layoutX="191.0" layoutY="68.0" text="logged and residents emailed" />
+      <Button fx:id="btnReturn" layoutX="225.0" layoutY="166.0" mnemonicParsing="false" onAction="#onReturnButtonClick" text="Return to Start" />
+</AnchorPane>
